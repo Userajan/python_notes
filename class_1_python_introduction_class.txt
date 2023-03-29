@@ -1,0 +1,420 @@
+What is Python?
+
+Application
+
+Fronetend Language:- HTML,CSS,Bootstrap,Jquery,JS
+Backend Language  :- Functionality/Logic(Fronetend), Connect with database and send the information to fronetend:- Python
+Database Language :- SQL,MySql,PgSql,Sqlite3, MongoDB (Data strore)
+
+
+Python is Backend Laguage.
+
+
+Why Python?
+
+1. Application Backend Development
+2. Datascience and Data analysis application
+3. AI
+4. Machine Learning and deep learing.
+5. Automation Testing
+
+
+
+Language Fundamentals:- 
+----------------------
+
+Introdction :-
+
+1. Python is general purpose of high level programming laguage.
+    
+
+    > There are 3 types of programming laguage are avilable in IT.
+
+
+          > Low Level Programming
+          > Middum Level Programming
+          > Hight Level Programming
+
+ 2.Python was developed by Guido Van Rossam in 1989, while working at National Research Insititute at Netherlands.
+
+		> Python is mix of two language(Perl,C++)
+
+3. 1991 Feb 20th python was officially lunched.
+
+
+4. Python is scripting laguage, It's very easy to undestand for anyone.
+
+
+Comparision:-
+-------------
+
+print:- Hello AT-4
+
+java:-
+
+public class Hello
+{
+	p s v main([String []  args])
+
+	{
+		SOP("Hello AT-4")
+
+	}
+}
+
+
+C:-
+---
+
+#include<stdio.h>
+void main()
+{
+	print("Hello AT-4")
+}
+
+
+Python:-
+-------
+
+print("Hello AT-4")
+
+
+Where we can use python:-
+------------------------
+
+1. For Developing Desktop appllication
+2. For Developing Web application
+3. Fro Developing Database application
+4. For Network Programming.
+5. For developing games
+6. For Data Anaysis application
+7. For machine and deep learning
+8. For Developing AT application
+9. For IOT(Internet of things)
+
+
+
+Limitation Python:-
+-------------------
+
+1. mobile application develeopment or mobile software.
+2. Banking application.
+
+class-2---------------------------------------------------------------------------------------------------------
+-------
+
+Features Of Python:-
+------------------
+
+1. Simple and Easy to Learn:- 
+
+2. Freeware and Opensource:-
+
+3. High Level Programming Laguage:-
+
+4. Platform Independent:- PVM(Python Virtual Machine)
+
+5. Portability:-
+
+6. Dynamically Typed:-
+
+
+	variable = data(data type)-- statically
+	var = data --- automatically detect the type of data.
+
+	ex:- >>> a = 10
+	>>> type(a)
+	<class 'int'>
+
+
+	Name(v) = 'Chandra Sekhar'(data)
+	Age(v) = 25(data)
+
+
+7.Both Procedure Oriented and Object Oriented.
+
+8.Interpreted:-
+
+9.Extensive Library:-
+
+
+Python Version:-
+
+Python 1.0V introduced in Jan 1994
+Python 2.0V introduced in Oct 2000
+Python 3.0V introduced in Dec 2008
+
+Current Version:- 3.11.2
+
+class--3
+------------------------------------------------------------------------------------------------------------------
+
+Identifiers:-
+-----------
+
+A name in python program is called idenitifier.
+It can be Variable Name, Function Name(File), Module Name and Class Name(Folder).
+
+
+what is variable?
+Variable is hold/store our single data.
+
+Example :-
+
+name = 'Somnath'
+a = 10
+dict = 'Khordha'
+
+
+Rules to define identifiers in python:-
+--------------------------------------
+
+1.The only allowed vharcters in python are:-
+	
+	> Alphabet symbols(upper and lower case)
+	> Digit (0-9)
+	> Underscore symbol(_)
+
+
+2. Identifiers should not start with digits.
+
+3.Idenitifiers are case sensitive, Because python language is case sensitive.
+
+>>> result = 90
+>>> Result
+Traceback (most recent call last):
+  File "<pyshell#12>", line 1, in <module>
+    Result
+NameError: name 'Result' is not defined
+>>> result
+90
+>>> RESULT  = 123
+>>> RESULt
+Traceback (most recent call last):
+  File "<pyshell#15>", line 1, in <module>
+    RESULt
+NameError: name 'RESULt' is not defined
+
+
+Industry Rules:-
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+class--------------------4
+---------------
+Reserved Words:-
+--------------
+
+In python some word are reserved to represent some meaning of functionality, Such type of word are called Reseved Words or Keywords.
+
+In Python There are 35 reserved words available in python
+
+
+>>> import keyword
+>>> keyword.kwlist
+
+['False', 'None', 'True', '__peg_parser__', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
+
+
+Note:-
+>>> We can not use python reserved word in any identificatio name, like varibale name, class name, function name, module name.
+
+class---------------------------------------5
+--------------------------------------------------------------
+                                         Data Types
+                                         ----------
+
+
+
+Data Type represent the type of data present inside a variable.
+
+In Python we are not required to specify the type explicitly. Based on value provided, the type will be assigned automatically. hence python is dynamically typed laguage.
+
+
+In Python there are 14 types of data available.
+
+1.Integer:- int()
+2.Float :- float()
+3.Complaex:- complex()
+4.Boolean :- bool()
+5.String :- str()
+6.List :- list()
+7.Tuple :- tuple()
+8.Set :- set()
+9.Frozenset :- frozenset()
+10.Bytes :- bytes()
+11.Bytearray :- bytearray()
+12.Range :- range()
+13.Dictionary :- dict()
+14.None :- None
+
+Ex:-
+
+type():- In type() we know that, which type of data is available.
+>>> a = 10
+>>> type(a)
+<class 'int'>
+>>> 
+
+
+Behaveiour of a variable in python:-
+-----------------------------------
+
+Garbage Collection:-
+------------------
+In Old lanuages like C++,Java programmer is responsible for unnessary object destruction. Usally programmer taking very much time while destructing object and mine while it's creating issues, If any neglectance , total memory can be filled with useless object which creates meomory problems.
+
+In python, We have some assitance which is always running in the backgound to destroy useless object. Because this assitance the chance of falling python program with memory problems is very less. This assiatant is nothing but Garbage Collector.
+
+It's always delets old same variable objects,Hence the main object of Garbage collector is to destroy useless objects.
+
+
+>>> a = 10
+>>> id(a)
+2525132843600
+>>> 
+>>> b = 10
+>>> id(b)
+2525132843600
+>>> 
+>>> id(10)
+2525132843600
+>>> 
+>>> a = 20
+>>> id(a)
+2525132843920
+>>> 
+
+
+class----------6
+-------------------------------------------------
+1.Integer(int()):-
+
+We can use int data type to represent whole number(It's both positive and Negetive but not accept decimal values)
+
+Ex:-
+
+>>> a = -10
+>>> type(a)
+<class 'int'>
+>>> 
+>>> b = 10
+>>> type(b)
+<class 'int'>
+>>> 
+
+
+
+Base Conveersion(Converting:-)
+-----------------------------
+
+
+1.Decimal(float):- (Base-10)
+
+We don't need decimal conversion, float data type is available for convert int to decimal.
+
+
+
+2.Binary:- (Base-2)
+---------------
+The allowed digit are 0 and 1
+we can use bin() functiom for converting int to binary
+The prefixed use with '0b'
+>>> a = 10
+>>> b = bin(a)
+>>> b
+'0b1010'
+>>> type(b)
+<class 'str'>
+
+
+
+
+3.Octal:- (Base-8)
+------------------
+The allowed digit are 0 to 7
+
+we can use oct() functiom for converting int to octal
+The prefixed use with '0o'
+
+>>> a = 100
+>>> b = oct(a)
+>>> b
+'0o144'
+
+
+
+
+
+4.Hexa Decimal:-(Base-16)
+------------------------
+The allowed digit are 0 to 9 and a to f
+
+we can use hex() functiom for converting int to hexal
+The prefixed use with '0x'
+
+>>> a = 1000
+>>> b = hex(a)
+>>> b
+'0x3e8'
+
+
+
+
+
+
+
+Float(float()):-
+---------------
+
+We can use float data type represent the decimal values.
+
+>>> a = 90.0
+>>> type(a)
+<class 'float'>
+>>> 
+>>> b = -89.67
+>>> type(b)
+<class 'float'>
+>>> 
+>>> c = 67978678.678876
+>>> type(c)
+<class 'float'>
+>>> 
+>>> 
+>>> d = -9089897.678
+>>> type(d)
+<class 'float'>
+
+
+
+Complex (complex):-
+-----------------
+
+A complex number is form of Real Part with Imaginary Part.
+Imaginary always taks with j.
+
+j = root of -1(undefine value)
+
+Real add with and imag add in imag
+
+>>> a = 2+9j
+>>> b = 7+14j
+>>> a+b
+(9+23j)
+>>> a-b
+(-5-5j)
+>>> 

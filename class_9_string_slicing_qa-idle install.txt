@@ -1,0 +1,26 @@
+Home Work Answer:-
+---------------
+
+>>> name = 'Ratna Subudhi'
+>>> mob = '75042337889'
+>>> dob = '23/8/1991'
+>>> 
+>>> password = dob[-4:]+name[0:2]+name[-7:-5]+mob[2:7]
+>>> password
+'1991RaSu04233'
+>>> 
+>>> 
+>>> bank_name = 'KOTAK MAHINDRA BANK'
+>>> branch = '78967'
+>>> ifsc = bank_name[0]+bank_name[4]+bank_name[-4]+bank_name[-1]+branch
+>>> ifsc
+'KKBK78967'
+>>> # formula = var[start:end+1:step]
+>>> #+ve = left to right
+>>> #-ve = right to left
+
+
+IDLE :- Integrated Development Learning Enviroment()
+
+
+IDE:- Integrated Development Enviroment(Vscode,Pycharm,Spider,Eclips)
